@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">Network</h1>
+        </div>
+        <div class="feed">
+            <p> Your Feed</p>
+        </div>
+
+        <div class="main">
+            <!-- left colum--------- -->
+            <div class="leftCol">
+                <div>
+                    <img id="user" src="./img/user-circle.png" alt="user image">
+                </div>
+                <div>
+                    <a class="text" href="#">Add an avatar</a>
+                </div>
+                <div class="name"> James Doe</div>
+            </div>
+            <!-- right colum -->
+
+            <div class="rightcol">
+
+                <!-- box1 ---------->
+                <div class="box">
+                    <div class="row">
+                        <p>Neil M</p>
+                        <label class="label" for="like">9 like(s)</label>
+                        <input id="like" type="button" value="Like" onclick="likeIncrease1()">
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think.<a href="#">link</a>
+                    </p>
+                </div>
+                <!-- box2 ---------->
+                <div class="box2">
+                    <div class="row">
+                        <p>Nichole K</p>
+                        <div class="topRight">
+                            <label class="label2" for="like">12 like(s)</label>
+                            <input id="like" type="button" value="Like" onclick="likeIncrease2()">
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comix</a>, check it out.<a href="#">link</a>
+                    </p>
+                </div>
+                <!-- box1 ---------->
+                <div class="box3">
+                    <div class="row">
+                        <p>Neil M</p>
+                        <label class="label3" for="like">9 like(s)</label>
+                        <input id="like" type="button" value="Like" onclick="likeIncrease3()">
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
